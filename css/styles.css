@@ -321,8 +321,39 @@ span {
 }
 
 .project-list-img {
+  box-shadow: 
+  0 2px 1px 0 rgba(46, 47, 66, 0.08), 
+  0 1px 1px 0 rgba(46, 47, 66, 0.16), 
+  0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
+.project-list-img :focus,
+.project-list-img :hover .project-cover-text {
+  transform: translateY(0);
+}
+
+.project-cover-wrap {
+  position: relative;
+  overflow: hidden;
+}
+
+.project-cover-text {
+  position: absolute;
+  top: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  background-color: #4d5ae5;
+  height: 100%;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 40px;
+  transform: translateY(100%);
+  transition: transform 300ms;
+
+
+}
 .project-list-subtitle {
   font-weight: 500;
   font-size: 20px;
