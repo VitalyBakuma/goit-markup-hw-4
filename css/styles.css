@@ -281,11 +281,10 @@ span {
   justify-content: center;
   gap: 24px;
   margin-top: 8px;
-  
 }
 .team-list {
   display: flex;
-  
+
   gap: 24px;
 }
 .team-image {
@@ -327,8 +326,6 @@ span {
   background-color: #4d5ae5;
   border-radius: 50px;
 }
-
-
 
 .section-portfolio {
   padding: 120px 0 120px 0;
@@ -418,6 +415,15 @@ span {
   margin-bottom: 16px;
 }
 
+.footer-subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
 .footer-span {
   color: #f4f4fd;
 }
@@ -427,4 +433,30 @@ span {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
+}
+
+.social-icon-footer {
+  display: block;
+  justify-content: left;
+  margin-left: 120px;
+}
+
+.footer-block {
+  display: flex;
+  align-items: top;
+}
+
+.social-icon-list-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  border-radius: 50px;
+  fill: #f4f4fd;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-icon-list-footer :hover, 
+.social-icon-list-footer :focus {
+  background-color: #31d0aa;
 }
