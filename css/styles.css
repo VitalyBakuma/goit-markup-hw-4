@@ -415,6 +415,10 @@ span {
   padding: 100px 0;
 }
 
+.footer-logo-text {
+margin-right: 120px;
+}
+
 .logo-footer {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -446,11 +450,13 @@ span {
   color: #f4f4fd;
   max-width: 264px;
 }
-
+.social-footer {
+  display: flex;
+}
 .social-icon-footer {
-  display: block;
+  display: flex;
+  align-items: baseline;
   justify-content: left;
-  margin-left: 120px;
 }
 
 .footer-block {
