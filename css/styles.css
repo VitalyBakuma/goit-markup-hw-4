@@ -192,7 +192,7 @@ span {
   border: 0;
   padding: 16px 32px;
   margin-top: 48px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
 }
 
 .feature {
@@ -274,7 +274,7 @@ span {
   margin-bottom: 72px;
 }
 .social-icon-item {
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
 }
 
 .social-icon {
@@ -391,7 +391,7 @@ span {
   padding-right: 32px;
   padding-top: 40px;
   transform: translateY(100%);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
 }
 .project-list-subtitle {
   font-weight: 500;
@@ -472,7 +472,7 @@ span {
   gap: 16px;
   border-radius: 50px;
   fill: #f4f4fd;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
 }
 
 .social-icon-list-footer :hover,
