@@ -280,7 +280,7 @@ span {
   fill: #f4f4fd;
 }
 
-.social-icon-list {
+.social {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -322,7 +322,7 @@ span {
   background-color: #31d0aa;
 }
 
-.social-icon-bg {
+.social-icon-item {
   display: flex;
   align-items: center;
   justify-content: center;
