@@ -215,6 +215,8 @@ span {
 .feature-item {
   width: calc((100% - 72px) / 4);
 }
+
+
 .feature-icon {
   fill: #2e2f42;
 }
@@ -290,6 +292,9 @@ span {
 .team-image {
   background-color: #fff;
   border-radius: 0 0 4px 4px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+  0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+
 }
 
 .team-subtitle {
@@ -351,18 +356,25 @@ span {
 }
 
 .project-list-img {
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .project-list-img :focus,
 .project-list-img :hover .project-cover-text {
   transform: translateY(0);
+ 
 }
 
 .project-cover-wrap {
   position: relative;
   overflow: hidden;
+  cursor: pointer;
+}
+
+.project-cover-wrap :hover,
+.project-cover-wrap :focus {
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+  0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+
 }
 
 .project-cover-text {
@@ -456,7 +468,7 @@ span {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-icon-list-footer :hover, 
+.social-icon-list-footer :hover,
 .social-icon-list-footer :focus {
   background-color: #31d0aa;
 }
