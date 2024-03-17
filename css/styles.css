@@ -317,11 +317,11 @@ span {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 24px;
 }
 .social-icon-title {
   width: 40px;
   height: 40px;
-  gap: 24px;
 }
 .social-link {
   width: 100%;
