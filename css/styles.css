@@ -364,8 +364,6 @@ span {
 .project-list-img :focus,
 .project-list-img :hover .project-cover-text {
   transform: translateY(0);
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .project-cover-wrap {
@@ -378,6 +376,11 @@ span {
 .project-cover-wrap :focus {
 }
 
+.project-list :hover,
+.project-list :focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+
+}
 .project-cover-text {
   position: absolute;
   top: 0;
