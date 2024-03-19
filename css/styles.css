@@ -151,6 +151,7 @@ span {
 }
 
 .hero {
+  margin: 0 auto;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -271,10 +272,6 @@ span {
   text-transform: capitalize;
   text-align: center;
   margin-bottom: 72px;
-}
-
-.social-icon {
-  fill: #f4f4fd;
 }
 
 .social {
@@ -472,9 +469,13 @@ span {
 .social-icon-footer {
 }
 .footer-subtitle {
+  margin-bottom: 16px;
 }
 .social-footer {
+  display: flex;
+  flex-direction: column;
 }
+
 .social-icon-list-footer {
   display: flex;
   gap: 16px;
